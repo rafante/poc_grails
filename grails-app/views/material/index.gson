@@ -1,0 +1,8 @@
+import poc.Material
+
+model {
+	Iterable<Material> materialList
+}
+
+json tmpl.material(materialList ?: [])
+

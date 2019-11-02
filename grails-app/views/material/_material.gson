@@ -1,0 +1,7 @@
+import poc.Material
+
+model {
+	Material material
+}
+
+json g.render(material, [resolveTemplate: false])
